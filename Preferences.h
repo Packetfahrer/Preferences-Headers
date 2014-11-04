@@ -3,9 +3,20 @@
 #import <Preferences/KeychainSyncCountryInfo.h>
 #import <Preferences/PSPhoneNumberSpecifier.h>
 #import <Preferences/KeychainSyncPhoneSettingsFragment.h>
+<<<<<<< HEAD
+#import <Preferences/PSLocaleSelector.h>
+#import <Preferences/PSBarButtonSpinnerView.h>
+#import <Preferences/PSNavBarSpinnerManager.h>
+#import <Preferences/PSKeychainSyncPhoneNumber.h>
+#import <Preferences/PSListController.h>
+#import <Preferences/PSWebContainerView.h>
+#import <Preferences/PSSystemPolicyManager.h>
+#import <Preferences/PSSpecifierAction.h>
+=======
 #import <Preferences/PSBarButtonSpinnerView.h>
 #import <Preferences/PSNavBarSpinnerManager.h>
 #import <Preferences/PSListController.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/KeychainSyncSetupController.h>
 #import <Preferences/KeychainSyncSecurityCodeCell.h>
 #import <Preferences/KeychainSyncSecurityCodeController.h>
@@ -14,6 +25,10 @@
 #import <Preferences/PSTextFieldSpecifier.h>
 #import <Preferences/PSConfirmationSpecifier.h>
 #import <Preferences/PSListItemsController.h>
+<<<<<<< HEAD
+#import <Preferences/PSTableCellHighlightContext.h>
+=======
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSTableCell.h>
 #import <Preferences/PSDetailController.h>
 #import <Preferences/PSEditingPane.h>
@@ -24,6 +39,12 @@
 #import <Preferences/PSPasscodeField.h>
 #import <Preferences/PSEditableListController.h>
 #import <Preferences/PSBundleController.h>
+<<<<<<< HEAD
+#import <Preferences/PSSpecifierUpdates.h>
+#import <Preferences/PSSpecifierUpdateContext.h>
+#import <Preferences/PSSpecifierUpdateOperation.h>
+=======
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSNonMovableTapGestureRecognizer.h>
 #import <Preferences/PSDiscreteSlider.h>
 #import <Preferences/FontSizeSliderCell.h>
@@ -33,11 +54,22 @@
 #import <Preferences/PSSystemConfigurationDynamicStoreMISWatcher.h>
 #import <Preferences/KeychainSyncHeaderView.h>
 #import <Preferences/PSKeychainSyncManager.h>
+<<<<<<< HEAD
+#import <Preferences/PSCloudStorageOffersManager.h>
 #import <Preferences/PSBiometricIdentity.h>
+#import <Preferences/PSAdvancedLocaleController.h>
+=======
+#import <Preferences/PSBiometricIdentity.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSSplitViewController.h>
 #import <Preferences/DevicePINController.h>
 #import <Preferences/DevicePINSetupController.h>
 #import <Preferences/PSSubtitleSwitchTableCell.h>
+<<<<<<< HEAD
+#import <Preferences/_PSDeferredUpdates.h>
+#import <Preferences/PSSearchModel.h>
+=======
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/FailureBarView.h>
 #import <Preferences/PINView.h>
 #import <Preferences/NumericPINView.h>
@@ -49,38 +81,77 @@
 #import <Preferences/PSAppListController.h>
 #import <Preferences/PSIconMarginTableCell.h>
 #import <Preferences/KeychainSyncSMSVerificationController.h>
+<<<<<<< HEAD
+#import <Preferences/PSRestrictionsController.h>
 #import <Preferences/KeychainSyncPhoneNumberController.h>
+#import <Preferences/PSLanguage.h>
+=======
+#import <Preferences/KeychainSyncPhoneNumberController.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSInternationalLanguageController.h>
 #import <Preferences/PSInternationalLanguageSetupController.h>
 #import <Preferences/_PSDeleteButtonCell.h>
 #import <Preferences/PSLanguageSelector.h>
+<<<<<<< HEAD
+#import <Preferences/PSAdvancedLanguageController.h>
+#import <Preferences/PSWeakReference.h>
+#import <Preferences/PSRegion.h>
+#import <Preferences/PSLocaleController.h>
+#import <Preferences/PopBackListItemsController.h>
+#import <Preferences/PSSearchResults.h>
+#import <Preferences/PSLanguageTableViewCell.h>
+=======
 #import <Preferences/PSLocaleController.h>
 #import <Preferences/PSSupplementalLocaleInformation.h>
 #import <Preferences/PopBackListItemsController.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSInternationalController.h>
 #import <Preferences/RegionFormatSampleView.h>
 #import <Preferences/PSAccountSecurityController.h>
 #import <Preferences/KeychainSyncDevicePINController.h>
+<<<<<<< HEAD
+#import <Preferences/PSSpecifierDataSource.h>
+#import <Preferences/SuggestedAppsController.h>
+#import <Preferences/KeychainSyncAdvancedSecurityCodeController.h>
+#import <Preferences/PSPowerlogListController.h>
+#import <Preferences/DiagnosticDataController.h>
+#import <Preferences/ProblemReportingAboutController.h>
+=======
 #import <Preferences/KeychainSyncAdvancedSecurityCodeController.h>
 #import <Preferences/DiagnosticDataController.h>
 #import <Preferences/ProblemReportingAboutDiagnosticsController.h>
 #import <Preferences/ProblemReportingTableView.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/ProblemReportingController.h>
 #import <Preferences/PrefsUILinkLabel.h>
 #import <Preferences/PSKeychainSyncViewController.h>
 #import <Preferences/PSAboutTextSheetViewController.h>
 #import <Preferences/PSAboutHTMLSheetViewController.h>
+<<<<<<< HEAD
+#import <Preferences/PSStackPushAnimationController.h>
+#import <Preferences/PSTextViewPane.h>
+=======
 #import <Preferences/TextFilePane.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSControlTableCell.h>
 #import <Preferences/PSRestrictionsPasscodeController.h>
 #import <Preferences/PSSpinnerTableCell.h>
 #import <Preferences/PSTextViewTableCell.h>
 #import <Preferences/PSTextView.h>
 #import <Preferences/PSEditableTableCell.h>
+<<<<<<< HEAD
+#import <Preferences/PSSearchIndexOperation.h>
+=======
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSSwitchTableCell.h>
 #import <Preferences/PSSegmentTableCell.h>
 #import <Preferences/PSSliderTableCell.h>
 #import <Preferences/QuietHoursStateController.h>
+<<<<<<< HEAD
+#import <Preferences/PSSearchController.h>
+#import <Preferences/PSSpecifierGroupIndex.h>
+=======
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSAirplaneModeSettingsDetail.h>
 #import <Preferences/PSBluetoothSettingsDetail.h>
 #import <Preferences/PSDNDSettingsDetail.h>
@@ -130,11 +201,30 @@
 #import <Preferences/PSSettingsFunctions.h>
 #import <Preferences/PSExpandableListGroupController.h>
 #import <Preferences/PSExpandableAppListGroupController.h>
+<<<<<<< HEAD
+#import <Preferences/KeychainSyncAppleSupportController.h>
 #import <Preferences/PSFooterHyperlinkView.h>
+#import <Preferences/PSMagnifyMode.h>
+#import <Preferences/PSMagnifyController.h>
+=======
+#import <Preferences/PSFooterHyperlinkView.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
 #import <Preferences/PSUsageBundleCell.h>
 #import <Preferences/PasscodeFieldCell.h>
 #import <Preferences/KeychainSyncTextEntryController.h>
 #import <Preferences/PSUsageBundleManager.h>
 #import <Preferences/PSUsageBundleApp.h>
+<<<<<<< HEAD
+#import <Preferences/PSSystemPolicyForApp.h>
+#import <Preferences/PSUsageBundleDetailController.h>
+#import <Preferences/PSSearchResultsCell.h>
+#import <Preferences/PSSearchResultsSwitchCell.h>
+#import <Preferences/PSLazyImagePromise.h>
+#import <Preferences/PSUsageBundleCategory.h>
+#import <Preferences/PSSearchOperation.h>
+#import <Preferences/PSSearchEntry.h>
+#import <Preferences/PSUsageSizeHeader.h>
+=======
 #import <Preferences/PSUsageBundleDetailController.h>
 #import <Preferences/PSUsageBundleCategory.h>
+>>>>>>> 9b3c8b97620825ae25bfcb8647c947dfc8814ae8
